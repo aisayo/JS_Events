@@ -17,6 +17,17 @@
   * Takes in two arguments: name of the event and callback function
   * We can also add an event to the element
 
+* Can not manipulate DOM before page is fully loaded
+
+* DomContentLoaded
+  * Helps ensure code runs at the right time
+  * Ensures that js code is being executed immediately after HTML is finished loading
+  * Browsers built in way to indicate when a page is loaded
+  * DomContentLoaded event fires when your page’s DOM is fully parsed
+  
+* Load
+  * fires off when a resource and its dependent resources like CSS, JS have finished loading
+
 * Let's Talk Functions
   * One of the most important parts of JavaScript
   * A way to group together related bits of JS code, abstractions
