@@ -51,3 +51,33 @@
   * When a return is reached, no further code behavior will happen
   * Can be saved to variables
   * Can be used as inputs to other functions
+
+* What are Scopes?
+  * Scope is concept of where something is available
+  * Functions and variables have scopes
+
+* Types of scope:
+
+  * Global scope
+    * anything declared in this scope are accessible everywhere in your javascript code.
+    * Not declared inside a function or block
+
+  * Function Scope
+    * Functions create a new execution context with its own scope
+    * Can not reference anything declared inside of a function, outside of it
+
+  * Block scope
+    * Variables declared with var are not block-scoped
+    * Variables declared with const and let are block-scoped
+
+* Anything declared without the key words const, let, var are always globally scoped
+
+* Scope chain
+  * Every function has access to a scope chain
+  * When you create a variable inside a function that gets invoked, its creating a local variable
+  * The local variable gets recognized first bcause the js engine see’s its reference.
+  * Then when it gets to a variable from an outer scope, it goes looking in the outer scope to find a match.
+  * Functions have access to all variables and functions declared in its outer scope
+  * Scope chains are nested systems
+  * Scope chains only go in one direction
+  * Can not go from outer to inner

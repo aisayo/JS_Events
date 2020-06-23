@@ -29,3 +29,25 @@
 // }
 
 // returningValues(6)
+
+
+// scoping
+
+// let global = "global scope"
+// // console.log(functionScope)
+
+// function whatTheScope(){
+//     let functionScope = "function scope"
+//     console.log(global)
+//     console.log(functionScope)
+
+//     if (true){
+//         var blockScope = "blockScope"
+//         let blockScope = "blockScope"
+//         console.log(blockScope)
+//     }
+
+//         console.log(blockScope)
+// }
+
+// whatTheScope()
