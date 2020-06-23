@@ -16,4 +16,13 @@
   * Addeventlistener: <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener>
   * Takes in two arguments: name of the event and callback function
   * We can also add an event to the element
-  
+
+* Let's Talk Functions
+  * One of the most important parts of JavaScript
+  * A way to group together related bits of JS code, abstractions
+  * They combine series of steps under a new name
+  * Makes it easier to read, debug and improve
+  * It is an object. We can execute or call it multiple times(invoke)
+  * First class citizens: meaning they can be treated as any other variable, assigned to variable, stored in data structure, passed as an argument to another function, or be return value of another function.
+  * To invoke a function, () must be added, () is the invocation operator that tells JS to invoke the function
+  * Functions must be declared before trying to call
