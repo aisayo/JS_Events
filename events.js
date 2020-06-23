@@ -5,3 +5,12 @@ function helloWorld(){
 }
 
 
+// parameters
+
+// console.log(`Testing parameters: ${a} ${b}`)
+
+// function addingParameters(a, b){
+//     console.log(`Reading parameters: ${a} ${b}`)
+// }
+
+// addingParameters("hello", "world")
