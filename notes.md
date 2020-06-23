@@ -33,7 +33,7 @@
 * event.PreventDefault
   * Prevents an event from performing its default behavior because we want to update the DOM using js.
 
-* Let's Talk Functions
+## Let's Talk Functions
 
   * One of the most important parts of JavaScript
   * A way to group together related bits of JS code, abstractions
@@ -55,7 +55,8 @@
   * Can be saved to variables
   * Can be used as inputs to other functions
 
-* What are Scopes?
+## What are Scopes?
+
   * Scope is concept of where something is available
   * Functions and variables have scopes
 
@@ -85,7 +86,7 @@
   * Scope chains only go in one direction
   * Can not go from outer to inner
 
-* The JavaScript Engine
+## The JavaScript Engine
 
   * When js engine runs in the browser, the js engine makes 2 passes over the code
 
