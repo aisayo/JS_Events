@@ -114,3 +114,13 @@
     * This phase determines where and how all identifiers are declared and how they will be looked up during execution
     * `Let foo = bar` : first let foo declares variable in scope before code execution; then the value is assigned if found in available scope
     * Js functions dont care where they are invoked, only where they are declared
+
+* Hoisting
+  * Deals with how function and variable declarations get raised to the top of the current scope
+  * Since a js engine reads js files from top to bottom, need to define functions before invoking it
+  * Engine ignores all function invocations during the compilation phase and stores any declarations in memory
+  * Best practice is to declare all functions at top of code
+
+  * Ways to keep engine from hoisting
+    * Declare everything at the top of its scope
+    * Dont use var

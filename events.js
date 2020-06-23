@@ -99,3 +99,27 @@
  
 //     first();
 // }
+
+
+
+// hoisting 
+
+    // function myFunc () {
+    //     return 'Hello, world!';
+    //   }
+    
+    //   myFunc();
+
+
+    // myFunc();
+    
+    // function myFunc () {
+    //   return 'Hello, world!';
+    // }
+
+
+    // function myFunc () {
+    //     console.log(hello);
+       
+    //     var hello = 'World!';
+    //   }
