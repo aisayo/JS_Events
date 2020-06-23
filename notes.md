@@ -24,9 +24,11 @@
   * Ensures that js code is being executed immediately after HTML is finished loading
   * Browsers built in way to indicate when a page is loaded
   * DomContentLoaded event fires when your page’s DOM is fully parsed
+  * <https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event>
   
 * Load
   * fires off when a resource and its dependent resources like CSS, JS have finished loading
+  * <https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event>
 
 * Let's Talk Functions
   * One of the most important parts of JavaScript
