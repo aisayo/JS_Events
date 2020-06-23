@@ -64,3 +64,38 @@
     // }
     
     // myFunc();
+
+
+// lexical scoping
+
+    // const myVar = 'Foo';
+    
+    // function first () {
+
+    //     console.log('Inside first()');
+        
+    //     console.log('myVar is currently equal to:', myVar);
+    // }
+    
+    // function second () {
+
+    //     const myVar = 'Bar';
+        
+    //     first();
+
+    // }
+
+
+//     const myVar = 'Foo';
+ 
+//     function second () {
+//     function first () {
+//         console.log('Inside first()');
+    
+//         console.log('myVar is currently equal to:', myVar);
+//     }
+ 
+//     const myVar = 'Bar';
+ 
+//     first();
+// }

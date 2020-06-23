@@ -30,6 +30,9 @@
   * fires off when a resource and its dependent resources like CSS, JS have finished loading
   * <https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event>
 
+* event.PreventDefault
+  * Prevents an event from performing its default behavior because we want to update the DOM using js.
+
 * Let's Talk Functions
 
   * One of the most important parts of JavaScript
@@ -105,3 +108,9 @@
   * Reference errors
     * Happens during second phase of js engine.
     * Occurs because it can not find a match to the identifier
+
+  * Lexical scoping
+    * A scope based on where variables and blocks of scope are defined by the programmer at time of writing code then is solidified by the time the code is processed
+    * This phase determines where and how all identifiers are declared and how they will be looked up during execution
+    * `Let foo = bar` : first let foo declares variable in scope before code execution; then the value is assigned if found in available scope
+    * Js functions dont care where they are invoked, only where they are declared
