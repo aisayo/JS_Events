@@ -9,5 +9,6 @@
 * Types of events?
   * Most common events => 'Click (Mouse Click)', Key press, Form Submission
   * There is a list of js events:  
-    * `https://developer.mozilla.org/en-US/docs/Web/Events`
-    * `http://help.dottoro.com/larrqqck.php`
+    * <https://developer.mozilla.org/en-US/docs/Web/Events>
+    * <http://help.dottoro.com/larrqqck.php>
+
