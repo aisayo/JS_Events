@@ -12,3 +12,8 @@
     * <https://developer.mozilla.org/en-US/docs/Web/Events>
     * <http://help.dottoro.com/larrqqck.php>
 
+* How do we tell a node/element to listen for an event?
+  * Addeventlistener: <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener>
+  * Takes in two arguments: name of the event and callback function
+  * We can also add an event to the element
+  
