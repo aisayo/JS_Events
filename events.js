@@ -1,12 +1,13 @@
 //adding onclick event 
 
 // function helloWorld(){
-//     alert("Clicked")
+    
+//     console.log("hello world!!")
 // }
 
 // parameters
 
-// console.log(`Testing parameters: ${a} ${b}`)
+//console.log(`Testing parameters: ${a} ${b}`)
 
 // function addingParameters(a, b){
 //     console.log(`Reading parameters: ${a} ${b}`)
@@ -28,42 +29,46 @@
 //     console.log("after return statement")
 // }
 
-// returningValues(6)
+// returningValues(3)
 
 
 // scoping
 
 // let global = "global scope"
-// // console.log(functionScope)
+// //console.log(functionScope)
+// // console.log(blockScope)
 
 // function whatTheScope(){
 //     let functionScope = "function scope"
 //     console.log(global)
 //     console.log(functionScope)
 
+
 //     if (true){
-//         var blockScope = "blockScope"
+//         //var blockScope = "blockScope"
 //         let blockScope = "blockScope"
-//         console.log(blockScope)
+//         //console.log(blockScope)
 //     }
 
-//         console.log(blockScope)
 // }
 
 // whatTheScope()
 
-// JavaScript Engine 
+//JavaScript Engine 
 
-    // const myVar = 42;
+//     const myVar = 42;
     
-    // function myFunc () {
-    //     const myVar = 9001;
+//     function myFunc () {
+//         const myVar = 9001;
         
-    //     return myVar;
+//         console.log(myVar)
 
-    // }
+//     }
     
-    // myFunc();
+//     myFunc();
+
+// // 9001
+// // 9001
 
 
 // lexical scoping
