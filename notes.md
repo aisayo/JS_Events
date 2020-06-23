@@ -1,4 +1,6 @@
-# Event Handling
+# JavaScript Events
+
+## Event Handling
 
 * Event handling is making something happen
 
