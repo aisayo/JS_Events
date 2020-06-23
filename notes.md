@@ -81,3 +81,27 @@
   * Scope chains are nested systems
   * Scope chains only go in one direction
   * Can not go from outer to inner
+
+* The JavaScript Engine
+
+  * When js engine runs in the browser, the js engine makes 2 passes over the code
+
+  * Compilation phase
+    * First pass is the compilation phase: engine steps through our code line by line
+    * When engine sees a variable declaration, it allocates memory and sets up a reference to the variables identifier
+    * When the engine sees a function declaration it:
+       1. Allocates memory and sets up reference to the functions identifier
+       2. Creates a new execution context with a new scope
+       3. Adds a reference to the parent scope to the scope chain, allowing reference to anything declared in the outer scope
+
+  * Execution phase
+    * Second pass
+    * This time it goes line by line and actually runs our code, assigning values to variables and invoking functions
+
+  * Identifier resolution
+    * Happens during second phase of engine running
+    * Engine sees an identifier and resolves it to a value
+
+  * Reference errors
+    * Happens during second phase of js engine.
+    * Occurs because it can not find a match to the identifier
