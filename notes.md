@@ -31,6 +31,7 @@
   * <https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event>
 
 * Let's Talk Functions
+
   * One of the most important parts of JavaScript
   * A way to group together related bits of JS code, abstractions
   * They combine series of steps under a new name
@@ -39,3 +40,14 @@
   * First class citizens: meaning they can be treated as any other variable, assigned to variable, stored in data structure, passed as an argument to another function, or be return value of another function.
   * To invoke a function, () must be added, () is the invocation operator that tells JS to invoke the function
   * Functions must be declared before trying to call
+
+* Parameters
+  * Locally scoped variables that are usable(“scoped”) to inside the function
+  * Allows for code to be reusable, helps create general versions of function
+
+* Return Values
+  * Functions can return values
+  * “Like a summary of what happened in the function”
+  * When a return is reached, no further code behavior will happen
+  * Can be saved to variables
+  * Can be used as inputs to other functions
